@@ -1,0 +1,21 @@
+:root {
+  --primary: #0070f3;
+  --border: #ccc;
+  --text-light: #666;
+  --font: sans-serif;
+}
+body { font-family: var(--font); margin: 0; background: #f9f9f9; }
+.btn { padding: 8px 16px; border-radius: 6px; border: none; cursor: pointer; font-weight: bold; }
+.btn-primary { background: var(--primary); color: white; }
+.btn-outline { background: transparent; border: 1.5px solid var(--border); }
+.card { background: white; border-radius: 8px; border: 1px solid #eee; margin-top: 20px; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 12px; text-align: left; border-bottom: 1px solid #eee; }
+.form-group { margin-bottom: 15px; display: flex; flex-direction: column; }
+.form-group label { margin-bottom: 5px; font-weight: bold; font-size: 14px; }
+.form-group input, .form-group select, .form-group textarea { padding: 8px; border-radius: 6px; border: 1.5px solid var(--border); }
+.form-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.pill-row { display: flex; gap: 8px; margin-top: 10px; }
+.pill { padding: 6px 12px; border-radius: 20px; border: 1px solid var(--border); background: white; cursor: pointer; }
+.pill.active { background: var(--primary); color: white; border-color: var(--primary); }
